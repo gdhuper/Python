@@ -17,19 +17,6 @@ def draw_square():
             t.right(90)
             count = count + 1
         t.right(10)
-
-
-    #c = turtle.Turtle() 
-    #c.shape("arrow")
-    #c.color("blue")
-    #c.circle(100)
-
-    #c.forward(100)
-    #c.forward(200)
-    #c.left(120)
-    #c.forward(200)
-    #c.left(120)
-    #c.forward(200)
      
     window.exitonclick()
 
