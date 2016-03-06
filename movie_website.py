@@ -3,6 +3,9 @@ import urllib
 import cStringIO
 
 class Movie():
+    """This class provides a way to store movies in a Website"""
+    VALID_R = ["G", "PG", "PG-13", "R"]
+    
     def __init__(self, movie_title, movie_storyline, poster, trailer):
         self.title = movie_title
         self.storyline = movie_storyline
